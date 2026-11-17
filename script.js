@@ -5,7 +5,7 @@ function btnLogin() {
     const senha = document.getElementById("senha").value;
     const resultado = document.getElementById("resultado");
 
-    if (usuario === "ted" && senha === "kehlani") {
+    if (usuario === "kehlani" && senha === "ant3d3gm0n") {
         resultado.textContent = "Acesso permitido";
         resultado.classList.add("sucesso");
     } else {
