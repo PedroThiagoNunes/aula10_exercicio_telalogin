@@ -7,9 +7,14 @@ function btnLogin() {
 
     if (usuario === "kehlani" && senha === "ant3d3gm0n") {
         resultado.textContent = "Acesso permitido";
-        resultado.classList.add("sucesso");
+        window.location.href = "pagina2.html";
+
+
     } else {
         resultado.textContent = "Acesso negado!";
-        resultado.classList.remove("sucesso");
+        resultado.classList.remove("tente de novo");
     }
 }
+
+document.getElementById("btnLogin").addEventListener("click", btnLogin);
+
