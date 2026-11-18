@@ -7,7 +7,7 @@ function btnLogin() {
 
     if (usuario === "kehlani" && senha === "ant3d3gm0n") {
         resultado.textContent = "Acesso permitido";
-        window.location.href = "pagina2.html";
+        window.location.href = "login/pagina2.html";
 
 
     } else {
@@ -17,4 +17,3 @@ function btnLogin() {
 }
 
 document.getElementById("btnLogin").addEventListener("click", btnLogin);
-
